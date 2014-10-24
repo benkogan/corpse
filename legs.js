@@ -25,9 +25,9 @@ setInterval(function(){
 function throw_it_up_onto_the_canvas_my_good_friend(x,y,side)
 {
   the_left_leg = new Image();	
-  the_left_leg.src = 'http://candusen.net/legs-right.png';
+  the_left_leg.src = 'images/legs-right.png';
   the_right_leg = new Image();
-  the_right_leg.src = 'http://candusen.net/legs-lefty.png';
+  the_right_leg.src = 'images/legs-lefty.png';
   if(side == 0)
   	the_right_leg.onload = function(){
 	  	the_fucking_canvas_context.drawImage(the_right_leg, x, y,imgW+20,imgH-10);
