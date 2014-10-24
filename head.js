@@ -185,7 +185,6 @@ var virgil = require('./virgil');
   var paradiso = {
     song: new Audio('media/ascent-trim.m4a'),
     interlude: interlude0,
-    background: 'url(./images/eyes-closed.png)',
     shift: 0.015,
     colors: [
       { color: '#1F2749', position: 0.000 },
@@ -200,7 +199,6 @@ var virgil = require('./virgil');
   var purgatorio = {
     song: new Audio('media/mutation.mp3'),
     interlude: interlude1,
-    background: 'url(./images/eyes-low.jpg)',
     shift: 0.030,
     colors: [
       { color: '#0B2E39', position: 0.000 },
@@ -215,7 +213,6 @@ var virgil = require('./virgil');
   var inferno = {
     song: new Audio('media/minipops.m4a'),
     interlude: interlude2,
-    background: 'url(./images/eyes.jpg)',
     shift: 0.045,
     colors: [
       { color: '#0E0F51', position: 0.000 },
@@ -301,10 +298,6 @@ var virgil = require('./virgil');
         // start interlude music
         interludeStatic.play();
         interludeWinds.play();
-
-        // (shitty) swap out bg image for interlude
-//        var newBG = canticum.realm.background;
-//        document.getElementById('corpse').style.backgroundImage = newBG;
 
         window.setTimeout(function(){
           // stop interlude music
