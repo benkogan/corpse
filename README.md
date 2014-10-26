@@ -1,6 +1,18 @@
 corpse
 ======
 
+For Postcrypt's [Exquisite Corpse][ec-game] show.
+
+Head by [Ben Kogan](http://github.com/benkogan).
+
+Body by [Dylan Kario](http://github.com/dkario).
+
+Legs by [Henry Van Dusen](http://github.com/hvandusen).
+
+Feet by [Kevin Roark](http://github.com/kevin-roark).
+
+[ec-game]: http://en.wikipedia.org/wiki/Exquisite_corpse
+
 Developing
 ----------
 
