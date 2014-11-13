@@ -1,7 +1,7 @@
 corpse
 ======
 
-For Postcrypt's [Exquisite Corpse][ec-game] show.
+For Postcrypt's [Exquisite Corpse][ec-game] show. Best viewed in Google Chrome.
 
 Head by [Ben Kogan](http://github.com/benkogan).
 
